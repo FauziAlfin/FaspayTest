@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('password field'), 'dummmdumm')
 
 WebUI.verifyElementHasAttribute(findTestObject('captcha field'), 'required', 0)
 
-'Manual Input Captcha'
+'Manual Input Invalid Captcha'
 WebUI.delay(10)
 
 WebUI.click(findTestObject('login button'))

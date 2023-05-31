@@ -27,9 +27,6 @@ WebUI.verifyElementHasAttribute(findTestObject('password field'), 'required', 0)
 
 WebUI.verifyElementHasAttribute(findTestObject('captcha field'), 'required', 0)
 
-'Manual Input Captcha'
-WebUI.delay(10)
-
 WebUI.click(findTestObject('login button'))
 
 'Incorrect Email/Username or Password'
